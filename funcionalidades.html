@@ -40,7 +40,20 @@
                     </div>
                 </form>
             </div>
-            
+            <div class="col">
+                <h2>Conversión de Pascal a Bar</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="pascal">Presion en Pascales:</label>
+                        <input type="number" class="form-control" id="pascal"
+                            placeholder="Ingrese la presion en Pascales (Pa)" oninput="convertToBar()">
+                    </div>
+                    <div class="form-group">
+                        <label for="bar">Presion en Bar:</label>
+                        <input type="text" class="form-control" id="bar" readonly>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 

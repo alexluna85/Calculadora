@@ -10,3 +10,12 @@ function convertToFahrenheit() {
     fahrenheitInput.value = fahrenheit.toFixed(2);
   }
 
+  function convertToBar() {
+    var pascalInput = document.getElementById("pascal");
+    var barInput = document.getElementById("bar");
+
+    var pascal = parseFloat(pascalInput.value);
+    var bar = (pascal/100000);
+
+    barInput.value = bar;
+  }
