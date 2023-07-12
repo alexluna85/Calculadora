@@ -29,3 +29,13 @@ function convertToFahrenheit() {
 
     gramosInput.value = gramos;
   }
+
+  function convertToCM() {
+    var metrosInput = document.getElementById("metros");
+    var centimetrosInput = document.getElementById("centimetros");
+
+    var metros = parseFloat(metrosInput.value);
+    var centimetros = (metros*100);
+
+    centimetrosInput.value = centimetros;
+  }
