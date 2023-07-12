@@ -19,3 +19,13 @@ function convertToFahrenheit() {
 
     barInput.value = bar;
   }
+
+  function convertToGramos() {
+    var kilosInput = document.getElementById("Kilos");
+    var gramosInput = document.getElementById("gramos");
+
+    var Kilos = parseFloat(kilosInput.value);
+    var gramos = (Kilos*1000);
+
+    gramosInput.value = gramos;
+  }
